@@ -1,0 +1,22 @@
+Vector NOOB project:
+
+1. Create vector for int type:
+    a) create header for class vector only with the most important methods;
+    b) implement vector functions.
+
+2. Create vector template class for different types (rewrite your old vector):
+    a) rewrite old vector;
+    b) add new functions and iterators.
+
+3. Download and install google test (gtest) with CMake from git repository:
+    a) download and install gtest;
+    b) write sample test to check gtest working.
+
+4. Write tests for your vector.
+
+5. Create sample program that will use your vector:
+    a) build your vector as static library in visual studio;
+    b) create program in visual studio which will use your vector header
+       and cpp;
+    c) make your program use static library of your vector instead of cpp;
+    c) create simple cmake build for your program and static library.
